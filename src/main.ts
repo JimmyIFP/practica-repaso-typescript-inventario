@@ -78,7 +78,6 @@ const getProductsByCat = async (cat: string) => {
       container.appendChild(stock)
       salida.appendChild(container)
     }
-
   } catch (error) {
     title.textContent = error instanceof Error ? error.message : "Error inesperado"
     salida.appendChild(title)
