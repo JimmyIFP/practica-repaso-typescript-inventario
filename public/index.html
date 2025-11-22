@@ -8,9 +8,19 @@
 <body>
   <h1>Inventario en TypeScript - James Ovalle</h1>
   <main>
-    <button id="btn-id">Buscar por ID</button>
-    <button id="btn-cat">Buscar por categoría</button>
-    <div id="salida"></div>
+    <div id="id-container">
+      <button id="btn-id">Buscar por ID</button>
+      <input id="input-id" type="number" placeholder="ID">
+    </div>
+    <div id="cat-container">
+      <button id="btn-cat">Buscar por categoría</button>
+      <input id="input-cat" type="text" placeholder="ID">
+    </div>
+    <div id="salida-container">
+      <span id="salida"></span>
+    </div>
   </main>
+
+  <script type="module" src="./dist/main.js"></script>
 </body>
 </html>
